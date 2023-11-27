@@ -6,3 +6,5 @@
 *
 # The !*/ exception allows subdirectories to still be tracked
 !*/
+# Avoid adding empty directories
+*/
