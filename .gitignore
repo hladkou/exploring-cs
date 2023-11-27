@@ -1,9 +1,9 @@
+# Ignore unnamed files at the root level
+*
 # Ignore compiled executables
 *.out
 *.o
-# The !*/ exception allows subdirectories to still be tracked
-!*/
 # Avoid adding empty directories
 */
-# Ignore all files without extension
-*.*
+# Allow specific file types
+!*.c
