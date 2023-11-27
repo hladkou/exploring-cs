@@ -1,10 +1,9 @@
 # Ignore compiled executables
 *.out
 *.o
-# Ignore all files without extension
-# The * wildcard ignores all files at the base directory level
-*
 # The !*/ exception allows subdirectories to still be tracked
 !*/
 # Avoid adding empty directories
 */
+# Ignore all files without extension
+*.*
