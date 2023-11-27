@@ -1,3 +1,5 @@
 # Ignore compiled executables
 *.out
 *.o
+# Ignore all files without extension
+*
