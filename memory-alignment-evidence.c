@@ -6,7 +6,7 @@ struct TestStruct
     int i;  // size = 4 bytes
 };
 
-void main()
+int main()
 {
     struct TestStruct a;
 
@@ -14,4 +14,6 @@ void main()
     printf("a.c (char) = %lu\n", sizeof(a.c));
     printf("a.i (int) = %lu\n", sizeof(a.i));
     printf("whole struct takes %lu bytes\n", sizeof(a)); // = 1 + 3 pad bytes + 4 = 8 bytes
+
+    return 0;
 }
